@@ -1,0 +1,19 @@
+{
+  "name": "napp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint *.js",
+    "start": "node index"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^13.0.0",
+    "eslint-plugin-import": "^2.13.0"
+  },
+  "dependencies": {
+    "winston": "^3.0.0",
+    "winston-daily-rotate-file": "^3.2.3"
+  }
+}
